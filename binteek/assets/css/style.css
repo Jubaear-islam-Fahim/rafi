@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    outline: none;
+}
+
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.nav-area {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0; 
+    padding: 30px 0;
+}
+
+.nav-area .logo {}
+
+.nav-area .logo img {}
+
+.nav-area .menu-list {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-area .menu-list li {}
+
+.nav-area .menu-list li a {
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: 0.2px;
+    color: #000000;
+
+}
+
+.nav-area .log-sign {
+    margin-left: auto;
+}
+
+.nav-area .log-sign a {
+    font-size: 17px;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid #006E99;
+    height: 45px;
+    padding: 0 20px;
+}
+
+.nav-area .log-sign .sign-btn {
+    color: #006E99;
+}
+
+.nav-area .log-sign .join-btn {
+    background-color: #006E99;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.banner-area{
+    background: #E5E5E5;
+    padding: 270px 0 150px;
+}
+
+.banner-content {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+
+.banner-text {}
+
+.banner-text h1 {
+    letter-spacing: 0.2px;
+    color: #002533;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.banner-text form {
+    display: flex;
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    margin: 40px 0 50px;
+}
+
+.banner-text form input {
+    width: 100%;
+    height: 50px;
+    padding: 15px;
+    border: 0;
+    outline: none;
+    box-shadow: none;
+}
+
+.banner-text form button {
+    background-color: #006E99;
+    border: 0;
+    outline: none;
+    box-shadow: none;
+    color: #fff;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+.banner-text .banner-list {
+    display: flex;
+    gap: 15px;
+    
+}
+
+.banner-text .banner-list li {}
+
+.banner-text .banner-list li a {
+    background: #E5F8FF;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    display: flex;
+    height: 50px;
+    padding: 0 18px;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
