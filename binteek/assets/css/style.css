@@ -17,6 +17,21 @@ a {
     text-decoration: none;
 }
 
+.pt-80 {
+    padding-top: 80px;
+}
+.pb-80 {
+    padding-bottom: 80px;
+}
+
+.pt-120 {
+    padding-top: 120px;
+}
+
+.pb-120 {
+    padding-bottom: 120px;
+}
+
 .container {
     max-width: 1160px;
     margin: 0 auto;
@@ -30,7 +45,7 @@ a {
     width: 100%;
     left: 0;
     right: 0;
-    top: 0; 
+    top: 0;
     padding: 30px 0;
 }
 
@@ -79,7 +94,7 @@ a {
     margin-left: 20px;
 }
 
-.banner-area{
+.banner-area {
     background: #E5E5E5;
     padding: 270px 0 150px;
 }
@@ -129,7 +144,7 @@ a {
 .banner-text .banner-list {
     display: flex;
     gap: 15px;
-    
+
 }
 
 .banner-text .banner-list li {}
@@ -146,5 +161,73 @@ a {
     font-size: 16px;
     line-height: 32px;
     letter-spacing: 0.2px;
+    color: #000000;
+}
+
+
+
+.promo-area {
+    background: #FFFFFF;
+    border: 1px solid #BDBDBD;
+    padding: 40px 0;
+}
+
+.promo-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.promo-content .promo-item {
+    text-align: center;
+}
+
+.promo-content .promo-item a {}
+
+.promo-content .promo-item a img {}
+
+
+.categories-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 30px;
+}
+
+.categories-item {
+    position: relative;
+}
+
+.categories-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 30px;
+}
+
+.categories-text .title,
+.categories-text .subtext {
+    color: white;
+}
+
+.categories-text .title {
+    font-weight: 500;
+    font-size: 24px;
+
+    letter-spacing: 0.2px;
+}
+
+.categories-text .subtext {
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.1px;
+    color: #DADEE3;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 48px;
+    letter-spacing: 0.2px;
+
     color: #000000;
 }
